@@ -1,1 +1,373 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"post-care-afb6a","appId":"1:944891173414:android:0a1d312d9434efbd39e4e7","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"post-care-afb6a","configurations":{"android":"1:944891173414:android:0a1d312d9434efbd39e4e7","ios":"1:944891173414:ios:f3bdcce00446705039e4e7","macos":"1:944891173414:ios:f3bdcce00446705039e4e7","web":"1:944891173414:web:e0c59587432bb19a39e4e7","windows":"1:944891173414:web:55a785cf4041f73c39e4e7"}}}}}}
+{
+  "version": 1,
+  "sections": [
+    {
+      "id": "epds",
+      "title": "Benessere psicologico (EPDS)",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Negli ultimi 7 giorni sono stato capace di sorridere e vedere il lato divertente delle cose",
+          "options": [
+            { "label": "Come sempre", "value": 0 },
+            { "label": "Un po' meno del solito", "value": 1 },
+            { "label": "Decisamente meno del solito", "value": 2 },
+            { "label": "Per niente", "value": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Negli ultimi 7 giorni guardavo alle cose imminenti con gioia",
+          "options": [
+            { "label": "Come sempre", "value": 0 },
+            { "label": "Un po' meno del solito", "value": 1 },
+            { "label": "Decisamente meno del solito", "value": 2 },
+            { "label": "Per niente", "value": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "Negli ultimi 7 giorni mi rimproveravo senza motivo quando le cose andavano male",
+          "options": [
+            { "label": "Sì, per la maggior parte delle volte", "value": 3 },
+            { "label": "Sì, alcune volte", "value": 2 },
+            { "label": "No, non molto spesso", "value": 1 },
+            { "label": "No, mai", "value": 0 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Negli ultimi 7 giorni mi sono sentita spaventata o terrorizzata senza una vera ragione",
+          "options": [
+            { "label": "Sì, abbastanza", "value": 3 },
+            { "label": "Sì, alcune volte", "value": 2 },
+            { "label": "No, non molto spesso", "value": 1 },
+            { "label": "No, mai", "value": 0 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Negli ultimi 7 giorni le cose mi sovrastano",
+          "options": [
+            { "label": "Sì, per la maggior parte del tempo non riesco a cavarmela affatto", "value": 3 },
+            { "label": "Sì, a volte non riesco a cavarmela come al solito", "value": 2 },
+            { "label": "No, la maggior parte delle volte me la cavo abbastanza bene", "value": 1 },
+            { "label": "No, me la sono cavata come sempre", "value": 0 }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "Negli ultimi 7 giorni sono stata così infelice da non riuscire a dormire",
+          "options": [
+            { "label": "Sì, per la maggior parte del tempo", "value": 3 },
+            { "label": "Sì, alcune volte", "value": 2 },
+            { "label": "No, non per molto", "value": 1 },
+            { "label": "No, mai", "value": 0 }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "Negli ultimi 7 giorni mi sono sentita triste e abbattuta",
+          "options": [
+            { "label": "Sì, per la maggior parte del tempo", "value": 3 },
+            { "label": "Sì, abbastanza spesso", "value": 2 },
+            { "label": "No, non molto spesso", "value": 1 },
+            { "label": "No, mai", "value": 0 }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "Negli ultimi 7 giorni mi sono sentita così triste da mettermi a piangere",
+          "options": [
+            { "label": "Sì, per la maggior parte del tempo", "value": 3 },
+            { "label": "Sì, abbastanza spesso", "value": 2 },
+            { "label": "Soltanto occasionalmente", "value": 1 },
+            { "label": "No, mai", "value": 0 }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "Negli ultimi 7 giorni il pensiero di farmi del male mi è venuto in mente",
+          "options": [
+            { "label": "Sì, abbastanza spesso", "value": 3 },
+            { "label": "Qualche volta", "value": 2 },
+            { "label": "Quasi mai", "value": 1 },
+            { "label": "Mai", "value": 0 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "diadica",
+      "title": "Soddisfazione diadica e familiare (0–4)",
+      "questions": [
+        {
+          "id": 10,
+          "text": "Modo in cui i miei desideri e bisogni sono stati soddisfatti nella attuale relazione",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 11,
+          "text": "Stabilità della attuale relazione di coppia",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 12,
+          "text": "Modalità con cui io e il mio partner prendiamo decisioni riguardanti la vita di coppia",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 13,
+          "text": "Condivisione di attività, regole, significati, valori",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 14,
+          "text": "Comprensione reciproca",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 15,
+          "text": "Rispetto reciproco",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 16,
+          "text": "Sostegno che ricevo dal partner",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 17,
+          "text": "Qualità della sessualità",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 18,
+          "text": "Soluzione dei nostri conflitti",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 19,
+          "text": "Gestione dei figli",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 20,
+          "text": "Educazione dei figli",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 21,
+          "text": "Gestione della casa",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 22,
+          "text": "Ruoli e divisione dei compiti familiari",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        },
+        {
+          "id": 23,
+          "text": "Responsabilità e impegno",
+          "options": [
+            { "label": "Per nulla soddisfatta/o", "value": 0 },
+            { "label": "Poco soddisfatta/o", "value": 1 },
+            { "label": "Abbastanza soddisfatta/o", "value": 2 },
+            { "label": "Molto soddisfatta/o", "value": 3 },
+            { "label": "Moltissimo soddisfatta/o", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "supporto_sociale",
+      "title": "Supporto sociale percepito (1–7)",
+      "questions": [
+        {
+          "id": 24,
+          "text": "È presente una persona particolare che mi è vicina quando ne ho bisogno",
+          "options": [
+            { "label": "Completamente in disaccordo", "value": 1 },
+            { "label": "Molto in disaccordo", "value": 2 },
+            { "label": "Poco in disaccordo", "value": 3 },
+            { "label": "Né in disaccordo né d'accordo", "value": 4 },
+            { "label": "Poco d'accordo", "value": 5 },
+            { "label": "Molto d'accordo", "value": 6 },
+            { "label": "Completamente d'accordo", "value": 7 }
+          ]
+        },
+        {
+          "id": 25,
+          "text": "È presente una persona particolare con cui condividere gioie e dispiaceri",
+          "options": [
+            { "label": "Completamente in disaccordo", "value": 1 },
+            { "label": "Molto in disaccordo", "value": 2 },
+            { "label": "Poco in disaccordo", "value": 3 },
+            { "label": "Né in disaccordo né d'accordo", "value": 4 },
+            { "label": "Poco d'accordo", "value": 5 },
+            { "label": "Molto d'accordo", "value": 6 },
+            { "label": "Completamente d'accordo", "value": 7 }
+          ]
+        },
+        {
+          "id": 26,
+          "text": "La mia famiglia cerca davvero di aiutarmi",
+          "options": [
+            { "label": "Completamente in disaccordo", "value": 1 },
+            { "label": "Molto in disaccordo", "value": 2 },
+            { "label": "Poco in disaccordo", "value": 3 },
+            { "label": "Né in disaccordo né d'accordo", "value": 4 },
+            { "label": "Poco d'accordo", "value": 5 },
+            { "label": "Molto d'accordo", "value": 6 },
+            { "label": "Completamente d'accordo", "value": 7 }
+          ]
+        },
+        {
+          "id": 27,
+          "text": "La mia famiglia mi sostiene emotivamente e mi aiuta",
+          "options": [
+            { "label": "Completamente in disaccordo", "value": 1 },
+            { "label": "Molto in disaccordo", "value": 2 },
+            { "label": "Poco in disaccordo", "value": 3 },
+            { "label": "Né in disaccordo né d'accordo", "value": 4 },
+            { "label": "Poco d'accordo", "value": 5 },
+            { "label": "Molto d'accordo", "value": 6 },
+            { "label": "Completamente d'accordo", "value": 7 }
+          ]
+        },
+        {
+          "id": 28,
+          "text": "È presente una persona particolare che mi dà conforto",
+          "options": [
+            { "label": "Completamente in disaccordo", "value": 1 },
+            { "label": "Molto in disaccordo", "value": 2 },
+            { "label": "Poco in disaccordo", "value": 3 },
+            { "label": "Né in disaccordo né d'accordo", "value": 4 },
+            { "label": "Poco d'accordo", "value": 5 },
+            { "label": "Molto d'accordo", "value": 6 },
+            { "label": "Completamente d'accordo", "value": 7 }
+          ]
+        },
+        {
+          "id": 29,
+          "text": "I/le miei/e amici/che cercano di aiutarmi",
+          "options": [
+            { "label": "Completamente in disaccordo", "value": 1 },
+            { "label": "Molto in disaccordo", "value": 2 },
+            { "label": "Poco in disaccordo", "value": 3 },
+            { "label": "Né in disaccordo né d'accordo", "value": 4 },
+            { "label": "Poco d'accordo", "value": 5 },
+            { "label": "Molto d'accordo", "value": 6 },
+            { "label": "Completamente d'accordo", "value": 7 }
+          ]
+        },
+        {
+          "id": 30,
+          "text": "Posso contare sulle/i mie/i amiche/ci quando le cose vanno male",
+          "options": [
+            { "label": "Completamente in disaccordo", "value": 1 },
+            { "label": "Molto in disaccordo", "value": 2 },
+            { "label": "Poco in disaccordo", "value": 3 },
+            { "label": "Né in disaccordo né d'accordo", "value": 4 },
+            { "label": "Poco d'accordo", "value": 5 },
+            { "label": "Molto d'accordo", "value": 6 },
+            { "label": "Completamente d'accordo", "value": 7 }
+          ]
+        },
+        {
+          "id": 31,
+          "text": "Posso parlare dei miei problemi",
+          "options": [
+            { "label": "Completamente in disaccordo", "value": 1 },
+            { "label": "Molto in disaccordo", "value": 2 },
+            { "label": "Poco in disaccordo", "value": 3 },
+            { "label": "Né in disaccordo né d'accordo", "value": 4 },
+            { "label": "Poco d'accordo", "value": 5 },
+            { "label": "Molto d'accordo", "value": 6 },
+            { "label": "Completamente d'accordo", "value": 7 }
+          ]
+        }
+      ]
+    }
+  ]
+}
